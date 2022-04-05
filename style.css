@@ -137,7 +137,31 @@
 }
 .ex-11-icon {
     font-size: 60px;
+    
 }
+.ex-11-icon:hover{
+    animation: loading-mezzospin 1.5s;
+}
+@keyframes loading-mezzospin {
+   
+    10%{
+        transform: rotate(45deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+    
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
