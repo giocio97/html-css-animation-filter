@@ -6,7 +6,7 @@
     transition: all 3s;
 }
 
-.well:hover .ex-1-square{
+.ex-1-square:hover {
     background-color: red;
 }
 
@@ -25,7 +25,15 @@
     width: 100px;
     height: 100px;
     background: red;
+    border-radius: none;
+    transition: all 3s;
 }
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+
 .ex-4-square {
     width: 100px;
     height: 100px;
