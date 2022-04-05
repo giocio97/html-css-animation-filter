@@ -111,7 +111,7 @@
 .ex-10-icon {
     font-size: 60px;
     animation: loading-spin 1s infinite;
-    position: relative;
+    
 }
 @keyframes loading-spin{
     /* 0%{
